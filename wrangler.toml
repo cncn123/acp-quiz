@@ -1,0 +1,10 @@
+name = "acp-quiz"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "public"
+
+# 部署前执行: npx wrangler kv namespace create PROGRESS
+# 把返回的 id 填到下面（preview 可再用 create --preview）
+[[kv_namespaces]]
+binding = "PROGRESS"
+id = "1ccfe745e5344309b6d8966a990284a7"
+preview_id = "d572422e2fab452e80ee643aabb31f18"

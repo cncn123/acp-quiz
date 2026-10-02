@@ -1,0 +1,13 @@
+{
+  "name": "acp-quiz",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev public --kv=PROGRESS",
+    "deploy": "wrangler pages deploy public",
+    "kv:create": "wrangler kv namespace create PROGRESS",
+    "kv:create:preview": "wrangler kv namespace create PROGRESS --preview"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
